@@ -84,8 +84,8 @@ fig3 <- ggplot(map, aes(long, lat, group = group)) +
 fig3
 
 # save image
-#ggsave(here::here("figures", paste0( "fig3", format(Sys.time(), "%Y%m%d_%H%M%S"), ".tiff")), 
-       #type = "cairo", width = 24, height = 13, dpi = 300, compression = "lzw")
+# ggsave(here::here("figures", paste0( "fig3", format(Sys.time(), "%Y%m%d_%H%M%S"), ".tiff")), 
+       # type = "cairo", width = 24, height = 13, dpi = 300, compression = "lzw")
 
 
 
@@ -128,6 +128,6 @@ fig5 <- ggplot(dat, aes(x = COUNTS, y = reorder(COUNTRY, COUNTS))) +
 fig5
 
 # save image
-ggsave(here::here("figures", paste0("fig5", format(Sys.time(), "%Y%m%d_%H%M%S"), ".tiff")), 
-       type = "cairo", width = 24, height = 12, dpi = 320, compression = "lzw")
+# ggsave(here::here("figures", paste0("fig5", format(Sys.time(), "%Y%m%d_%H%M%S"), ".tiff")), 
+       # type = "cairo", width = 24, height = 12, dpi = 320, compression = "lzw")
 
